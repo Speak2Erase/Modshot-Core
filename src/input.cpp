@@ -287,7 +287,7 @@ static const int mapToIndex[] =
 	0, 0, 0, 0, 0, 0, 0, 0,
 	21, 22, 23,
 	//settings & pause
-	260, 261
+	260, 261,
 	// pad: index 43 to 59
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	// sdl keycodes, 60 (0x00) to 91 (0x1f)
