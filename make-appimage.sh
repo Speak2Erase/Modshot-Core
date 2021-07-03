@@ -24,7 +24,7 @@ function atexit {
 trap atexit EXIT
 
 $LINUXDEPLOY -e "$conan_install_path/bin/oneshot" \
-	     -l "$conan_install_path/lib/libruby.so.2.5.3" \
+	     -l "$conan_install_path/lib/libruby.so.3.0.1" \
 	     -l "$GDK_LOADERS_PATH/loaders/io-wmf.so" \
              -l "$GDK_LOADERS_PATH/loaders/libpixbufloader-bmp.so" \
 	     -l "$GDK_LOADERS_PATH/loaders/libpixbufloader-icns.so" \
