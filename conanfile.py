@@ -34,7 +34,7 @@ class MkxpConan(ConanFile):
         "zlib/1.2.11",
         "bzip2/1.0.8",
     )
-    build_requires = ("ruby_installer/2.5.5@bincrafters/stable", )
+    build_requires = ("ruby_installer/3.0.1@astrabit/testing", )
     options = {
         "platform": ["standalone", "steam"],
     }
